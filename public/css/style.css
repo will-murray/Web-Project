@@ -1,0 +1,133 @@
+html, body {
+  margin: 0;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+
+  
+}
+canvas {
+  display: block;
+}
+
+#mainpage{
+  display: flex;
+  flex-flow: row-reverse;
+}
+#one {
+  display: block;
+  width:800px;
+  height:600px;
+}
+
+#two {
+  display: block;
+  margin-top: 10px;
+  width:800px;
+  height:600px;
+}
+
+
+/* Options in index.html */
+.options
+{
+  display: inline-block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.option
+{
+  float:left;
+  padding: 50px;
+}
+
+.emoji {
+  font-size: 100px;
+  vertical-align: middle;
+  line-height: 2;
+  clear: both;
+  margin: auto;
+}
+
+.description
+{
+  margin: auto;
+  margin-top: -50px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  }
+
+
+
+#login-form form{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+
+  margin: 4px 4px 4px 4px;
+
+  font-style: normal;
+  font-family:monospace;
+  font-style: oblique;
+  font-size: 10px;
+
+    
+  }
+
+  
+#login{
+  display: grid;
+  grid-template-columns: auto autow;
+  justify-content: center;
+
+  margin-left: 15%;
+  margin-right: 15%;
+
+  
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+#login-button{
+  justify-content: center;
+}
+
+#login-button button{
+  margin: 10%;
+  border-style: inherit;
+  border-width: 5px;
+  border-color: purple;
+  
+
+  font-style: normal;
+  font-family:monospace;
+  font-style: oblique;
+  font-size: 20px;
+
+}
+#login-button button:hover{
+  font-size: 25px;
+  background-color: green;
+  color: white;
+}
+
+a{
+  font-style: normal;
+  font-family:monospace;
+  font-style: oblique;
+  font-size: 20px;
+}
+
